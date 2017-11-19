@@ -1,13 +1,13 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-baseurl:
-url: http://mazhuang.org
+baseurl: /
+url: http://jackeyzheng.com
 date_format: "ordinal"
-title: 码志
-subtitle: "打码改变人生"
-description: "马壮的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+title: Jackey's Blog
+subtitle: "日积跬步 以至千里"
+description: "郑起的个人博客"
+keywords: Jackey, jackeyzheng, 郑起
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
@@ -15,12 +15,12 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: zkh360.com
-organization_url: http://www.zkh360.com
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+author: Jackey Zheng
+organization: alipay
+organization_url: http://www.alipay.com
+github_username: janekey
+location: HangZhou, China
+email: zheng.q31@gmail.com
 
 # ---------------- #
 #    Navigation    #
@@ -31,20 +31,16 @@ navs:
     label: 首页
 
   -
-    href: /categories/
+    href: /categories
     label: 分类
 
   -
-    href: /wiki/
+    href: /wiki
     label: 维基
 
   -
-    href: /links/
-    label: 链接
-
-  -
-    href: /about/
-    label: 关于
+    href: /about
+    label: 我
 
 # ---------------- #
 #       RSS        #
@@ -62,7 +58,7 @@ paginate: 8
 lsi: false
 quiet: false
 excerpt_separator: "\n\n"
-permalink: /:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title
 gems:
     - jekyll-github-metadata
     - rouge
@@ -77,7 +73,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: janekey/janekey.github.io
 
 # ---------------- #
 #      Comments    #
