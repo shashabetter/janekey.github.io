@@ -1,18 +1,16 @@
 ---
 layout: page
-title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+title: 关于我
+description: 对于我的介绍
+keywords: Jackeyzheng, 郑起
 comments: true
 menu: 关于
-permalink: /about/
+permalink: /about
 ---
 
-我是马壮，码而生，码而立。
+我是郑起，一名程序员，为了自己微小而美好的愿景而努力。
 
-仰慕「优雅编码的艺术」。
-
-坚信熟能生巧，努力改变人生。
+曾就职于大街网和腾讯，目前在支付宝担任技术专家
 
 ## 联系
 
@@ -20,7 +18,7 @@ permalink: /about/
 * {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
 {% endfor %}
 
-## Skill Keywords
+## 关注技术
 
 {% for category in site.data.skills %}
 ### {{ category.name }}

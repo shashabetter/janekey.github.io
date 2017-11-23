@@ -1,19 +1,10 @@
-- name: Software Engineer Keywords
+- name: 后端技术
+  keywords:
+      - 大型网站架构
+      - 消息中间件
+      - SOA
+
+- name: 编程语言
   keywords:
       - Java
-      - C++
-      - Python
-      - Design Patterns
-
-- name: Mobile Developer Keywords
-  keywords:
-      - Android
-      - Reverse Engineering
-
-- name: Windows Developer Keywords
-  keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+      - PHP
