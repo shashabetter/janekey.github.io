@@ -2,12 +2,12 @@
 #   Main Configs   #
 # ---------------- #
 baseurl: /
-url: http://jackeyzheng.com
+url: http://sha.jackeyzheng.com
 date_format: "ordinal"
-title: Jackey's Blog
+title: Sha's Blog
 subtitle: "日积跬步 以至千里"
-description: "郑起的个人博客"
-keywords: Jackey, jackeyzheng, 郑起
+description: "沙沙的个人博客"
+keywords: Sha, 沙沙
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
@@ -15,12 +15,12 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Jackey Zheng
+author: shasha
 organization: alipay
-organization_url: http://www.alipay.com
-github_username: janekey
+organization_url: http://www.yingyinglicai.com
+github_username: shashabeter
 location: HangZhou, China
-email: zheng.q31@gmail.com
+email: shashabetter@163.com
 
 # ---------------- #
 #    Navigation    #
@@ -69,7 +69,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: janekey/janekey.github.io
+repository: shashabetter/shashabetter.github.io
 
 # ---------------- #
 #      Comments    #
@@ -90,10 +90,10 @@ gitment:
         client_secret:
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: janekey
+    owner: shashabetter
     repo: blog-comments
-    clientID: 236df6af0ee4acc9f43b
-    clientSecret: 0e64b7d8ff8600a9e74ce8605705509d1df98bef
+    clientID: 86927b235cacde22c10f
+    clientSecret: fe885ab9f9a0e1eb35b36a023b3dd506d331f35f
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
@@ -101,4 +101,4 @@ lazy_load_disqus : false
 #    Analytics     #
 # ---------------- #
 google:
-    analytics_id: UA-80669434-1
+    analytics_id: 
